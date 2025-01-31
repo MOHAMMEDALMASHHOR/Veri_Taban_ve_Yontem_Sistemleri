@@ -1,0 +1,5 @@
+# db.sehirler.find({Yas: { $gte: 4 }, Sehir:"elazığ"})
+# db.sehirler.find({$or:[{Yas: { $gte: 3 }}, {Sehir:"elazığ"}]})
+# db.sehirler.find({$and:[{Yas: { $gte: 3 }}, {Sehir:"elazığ"}]})
+# db.sehirler.find({Yas: { $in: [3,4] }})
+# db.sehirler.find({Yas: { $nin: [3,4] }})
